@@ -1,8 +1,8 @@
 module Timestamp
     (
-    module A,
-    module B
+    module Timestamp.Data.Conversion,
+    module Timestamp.Data.TypesAndInstances
     ) where
 
-import Timestamp.Data.Conversion as A
-import Timestamp.Data.TypesAndInstances as B
+import Timestamp.Data.Conversion
+import Timestamp.Data.TypesAndInstances

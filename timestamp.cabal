@@ -1,7 +1,7 @@
 name:
   timestamp
 version:
-  0.1
+  0.1.0.1
 synopsis:
   Space-efficient Unix timestamp and utilities
 category:
