@@ -2,10 +2,10 @@ name:
   timestamp
 version:
   0.1
--- synopsis:
-
--- category:
---   Streaming, Database
+synopsis:
+  Space-efficient Unix timestamp and utilities
+category:
+  Time
 homepage:
   https://github.com/metrix-ai/timestamp
 bug-reports:
@@ -45,16 +45,9 @@ library
   other-modules:
 
   build-depends:
-    attoparsec >=0.13 && <0.14,
     cereal >=0.5.4 && <0.6,
-    directory >=1.3 && <2,
-    eternity >=0.1 && <0.2,
     hashable >=1.2 && <2,
-    potoki >=0.11 && <0.12,
     QuickCheck >=2.8.1 && <3,
-    text >=1 && <2,
     time >=1.8 && <2,
-    base,
-    foldl,
-    generic-random,
-    rebase
+    base >=4.7 && <5,
+    generic-random >=1 && <2

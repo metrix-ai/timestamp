@@ -1,7 +1,6 @@
 module Timestamp.Prelude
 (
-  module Exports,
-  textString,
+  module Exports
 )
 where
 
@@ -70,17 +69,9 @@ import Text.Printf as Exports (printf, hPrintf)
 import Text.Read as Exports (Read(..), readMaybe, readEither)
 import Unsafe.Coerce as Exports
 
--- foldl
--------------------------
-import Control.Foldl as Exports (Fold(..), FoldM(..))
-
 -- cereal
 -------------------------
 import Data.Serialize as Exports (Serialize)
-
--- text
--------------------------
-import Data.Text as Exports (Text)
 
 -- time
 -------------------------
@@ -95,11 +86,3 @@ import Data.Hashable as Exports
 -- QuickCheck
 -------------------------
 import Test.QuickCheck as Exports (Arbitrary(..))
-
--- Custom
--------------------------
-import qualified Data.Text as A
-
-textString :: Text -> String
-textString =
-  A.unpack
