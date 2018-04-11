@@ -39,11 +39,11 @@ library
   default-language:
     Haskell2010
   exposed-modules:
+    Timestamp
+  other-modules:
     Timestamp.Data.Conversion
     Timestamp.Data.TypesAndInstances
     Timestamp.Prelude
-  other-modules:
-
   build-depends:
     cereal >=0.5.4 && <0.6,
     hashable >=1.2 && <2,
