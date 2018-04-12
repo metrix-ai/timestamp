@@ -69,6 +69,10 @@ import Text.Printf as Exports (printf, hPrintf)
 import Text.Read as Exports (Read(..), readMaybe, readEither)
 import Unsafe.Coerce as Exports
 
+-- foldl
+-------------------------
+import Control.Foldl as Exports (Fold(..), FoldM(..))
+
 -- cereal
 -------------------------
 import Data.Serialize as Exports (Serialize)
