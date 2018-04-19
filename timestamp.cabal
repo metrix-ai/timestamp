@@ -1,7 +1,7 @@
 name:
   timestamp
 version:
-  0.1.1
+  0.2
 synopsis:
   Space-efficient Unix timestamp and utilities
 category:
@@ -40,7 +40,7 @@ library
     Haskell2010
   exposed-modules:
     Timestamp
-    Timestamp.Foldl
+    Timestamp.Folds
   other-modules:
     Timestamp.Data.Conversion
     Timestamp.Data.TypesAndInstances

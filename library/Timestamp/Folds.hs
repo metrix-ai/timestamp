@@ -1,7 +1,7 @@
 {-|
 Folds on timestamped values
 -}
-module Timestamp.Foldl
+module Timestamp.Folds
 where
 
 import Timestamp.Prelude hiding (maximum)
